@@ -1,0 +1,10 @@
+name             'analytics-cluster'
+maintainer       'Scott Ford'
+maintainer_email 'fords@chef.io'
+license          'Apache 2.0'
+description      'Installs/Configures the components of Hosted Chef and Analytics'
+long_description 'Installs/Configures the components of Hosted Chef and Analytics'
+version          '0.1.0'
+
+depends 'chef-server-12'
+depends 'chef-server-ingredient'
